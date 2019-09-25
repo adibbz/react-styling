@@ -1,0 +1,50 @@
+:global {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #424242; 
+    max-width: 300px;
+    border-top-left-radius: 5; 
+    border-top-right-radius: 5;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+  }
+}
+
+:local {
+
+  .cardImage {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .textWrapper {
+    padding: 10px 10px 20px 10px;
+  }
+
+  .h1 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+  }
+
+  .bodyText {
+    font-size: 14px;
+    color: #b9b9b9;
+    margin-top: 0px;
+  }
+
+  .btn {
+    background-color: #f9bc03;
+    color: #333;
+    border: 0;
+    border-radius: 3px;
+    font-size: 14px; 
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all ease-in 500ms;
+  }
+
+  .btn:hover {
+    background-color: rgb(199,150,2);
+  }
+}

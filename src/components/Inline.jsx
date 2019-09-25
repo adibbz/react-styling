@@ -8,6 +8,8 @@ const cardWrapper = {
     flexDirection: 'column', 
     backgroundColor: '#424242', 
     maxWidth: 300, 
+    borderTopLeftRadius: 5, 
+    borderTopRightRadius: 5,
     boxShadow: '0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12)'
 };
 
@@ -33,7 +35,7 @@ const Inline = props => (
         <div style={cardWrapper}>
             <img src={image} alt="Aaron Rodgers" style={{width: '100%', borderTopLeftRadius: 5, borderTopRightRadius: 5}} />
             <div style={{padding: '10px 10px 20px 10px'}}>
-                <h3 style={{marginTop: 0, marginBottom: 8}}>Boat</h3>
+                <h3 style={{marginTop: 0, marginBottom: 8}}>The Dude</h3>
                 <p style={{fontSize: 14, color: '#b9b9b9', marginTop: 0}}>If it weren't for Tom Brady, he'd be the GOAT. So for now he's the BOAT (Best of All Time).</p>
                 <button style={styles.btn}>Learn More</button>
                 <p className="extra-tag">Extra p tag</p>
